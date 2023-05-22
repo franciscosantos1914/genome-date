@@ -1,4 +1,7 @@
-import { add, format, subtract, isGreaterThan } from ".";
+import { add } from "./add.js";
+import { format } from "./format.js";
+import { subtract } from "./subtract.js";
+import { isGreaterThan } from "./is-greater-than.js";
 
 export const lightDate = (date = new Date()) =>
   new (class {
@@ -9,7 +12,7 @@ export const lightDate = (date = new Date()) =>
     }
 
     format(args) {
-      return format(args);
+      return format(this.#date, args);
     }
 
     isGreaterThan(date) {
