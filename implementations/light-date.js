@@ -20,10 +20,12 @@ export const lightDate = (date = new Date()) =>
     }
 
     add(number, format) {
-      return add(this.#date, Number(number), format);
+      let num = isNaN(Number(number)) ? 0 : Number(number);
+      return add(this.#date, num, format);
     }
 
     subtract(number, format) {
-      return subtract(this.#date, Number(number), format);
+      let num = isNaN(Number(number)) ? 0 : Number(number);
+      return subtract(this.#date, num, format);
     }
   })(date);
