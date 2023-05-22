@@ -1,1 +1,1 @@
-export * from "./implementations/light-date.js";
+export * from "./implementations/easy-date.js";
