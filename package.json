@@ -1,7 +1,6 @@
 {
-  "name": "easy-date",
+  "name": "@francis1914/easy-date",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,5 +15,17 @@
     "mocha": "^10.2.0",
     "sinon": "^15.1.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscosantos1914/easy-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/franciscosantos1914/easy-date/issues"
+  },
+  "homepage": "https://github.com/franciscosantos1914/easy-date#readme",
+  "description": ""
 }
