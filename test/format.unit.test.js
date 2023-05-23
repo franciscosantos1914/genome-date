@@ -16,7 +16,7 @@ describe("format unit tests 🚀", () => {
     assert.equal(wrongDate2, "Invalid Date");
   });
   it("should retrieve right date format", () => {
-    const date1 = format(new Date(), "DD-MM-YYYY");
+    const date1 = format("2023, 05, 22", "DD-MM-YYYY");
     const date2 = format(date1, "Day Month Year");
     const date3 = format("2023-05-03", "Day Month Year");
     assert.equal(date1, "22-05-2023");
