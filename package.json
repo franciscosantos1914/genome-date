@@ -21,11 +21,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/franciscosantos1914/easy-date.git"
+    "url": "git+https://github.com/franciscosantos1914/genome-date.git"
   },
   "bugs": {
-    "url": "https://github.com/franciscosantos1914/easy-date/issues"
+    "url": "https://github.com/franciscosantos1914/genome-date/issues"
   },
-  "homepage": "https://github.com/franciscosantos1914/easy-date#readme",
+  "homepage": "https://github.com/franciscosantos1914/genome-date#readme",
   "description": ""
 }
