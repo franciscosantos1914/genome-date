@@ -1,3 +1,3 @@
-import { easyDate as _easyDate } from "./implementations/easy-date.js";
+import { genomeDate as _genomeDate } from "./implementations/genome-date.js";
 
-export const easyDate = _easyDate;
+export const genomeDate = _genomeDate;

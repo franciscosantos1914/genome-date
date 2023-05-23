@@ -5,7 +5,7 @@ import { isGreaterThan as _isGreaterThan } from "./is-greater-than.js";
 
 let symbol = Symbol();
 
-export const easyDate = (date = new Date()) =>
+export const genomeDate = (date = new Date()) =>
   new (class {
     constructor(date) {
       symbol = date;
